@@ -1,0 +1,8 @@
+{
+  "name": "senarist-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Senarist Cloudflare Worker API scaffold",
+  "scripts": { "dev": "wrangler dev", "deploy": "wrangler deploy", "db:init:local": "wrangler d1 execute senarist-db --local --file=database/schema.sql", "db:init:remote": "wrangler d1 execute senarist-db --remote --file=database/schema.sql" },
+  "devDependencies": { "wrangler": "^4.0.0" }
+}
