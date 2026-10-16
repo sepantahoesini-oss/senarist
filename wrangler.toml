@@ -1,0 +1,11 @@
+name = "senarist-api"
+main = "src/worker.js"
+compatibility_date = "2026-10-16"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "senarist-db"
+database_id = "e69d63cf-3662-43e3-a252-d7425c519f6b"
+
+[vars]
+APP_PACKAGE_ID = "ir.senarist.app"
